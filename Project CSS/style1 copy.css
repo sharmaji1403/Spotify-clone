@@ -1,0 +1,35 @@
+.sticky-nav{
+    position: sticky;
+    top: 10;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 100;
+}
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    margin-right: 1rem;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem; 
+    overflow: auto;
+    color: white;
+    padding: 0 1.5rem 0 1.5rem;
+}
